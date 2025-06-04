@@ -3,7 +3,7 @@ import requests
 from chosen_plots import RecMa, GenreMatch
 from data import Data
 from update import Update
-
+#API from tmdb in this file is invalid
 
 app = Flask(__name__)
 
