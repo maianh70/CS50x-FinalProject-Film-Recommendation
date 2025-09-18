@@ -7,6 +7,7 @@ This project aims to do two things:
 - Film-to-Film Recommendation.
 
 - Feeling-to-Film Recommendation.
+<img width="1911" height="909" alt="Ảnh chụp màn hình 2025-09-18 233132" src="https://github.com/user-attachments/assets/733ac1d7-0673-426f-b743-6aaaaef9ef4f" />
 
 1. Film-to-Film Recommendation
 To recommend similar movies, the system takes the input of a movie’s title and release year. It first identifies the film using an API and extracts its plot. Then, I use the all-MiniLM-L6-v2 model from Sentence Transformers to embed the plot into a vector representation.
